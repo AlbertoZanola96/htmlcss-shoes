@@ -8,3 +8,55 @@
 body {
     font-family: 'Rubik Mono One', sans-serif;
 }
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+    color: yellow;
+}
+/* / common */
+
+.sfondo-1 {
+    position: relative;
+    background-color: red;
+}
+
+.shoes-1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} 
+
+.sfondo-2 {
+    position: relative;
+    background-color: #008000;
+}
+
+.shoes-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sfondo-3 {
+    position: relative;
+    background-color: #FFFF00;
+}
+
+.shoes-3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.verde {
+    color: green;
+}
