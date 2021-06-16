@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
  /* common */
 body {
     font-family: 'Rubik Mono One', sans-serif;
