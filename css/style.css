@@ -19,11 +19,39 @@ h2 {
     font-size: 50px;
     color: yellow;
 }
+
 /* / common */
 
-.sfondo-1 {
+#sfondo-1 {
     position: relative;
     background-color: red;
+}
+
+nav {
+    position: absolute;
+    top: 5%;
+    right: 1%;
+}
+ul li {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+ul li a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: none;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
 }
 
 .shoes-1 {
@@ -33,7 +61,7 @@ h2 {
     transform: translate(-50%, -50%);
 } 
 
-.sfondo-2 {
+#sfondo-2 {
     position: relative;
     background-color: #008000;
 }
@@ -45,7 +73,7 @@ h2 {
     transform: translate(-50%, -50%);
 }
 
-.sfondo-3 {
+#sfondo-3 {
     position: relative;
     background-color: #FFFF00;
 }
