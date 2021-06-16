@@ -22,15 +22,12 @@ h2 {
 
 /* / common */
 
-#sfondo-1 {
-    position: relative;
-    background-color: red;
-}
-
+/* nav  */
 nav {
-    position: absolute;
+    position: fixed;
     top: 5%;
     right: 1%;
+    z-index: 2;
 }
 ul li {
     position: relative;
@@ -52,6 +49,13 @@ ul li a {
     color: black;
     font-size: 20px;
 
+}
+/* / nav */
+
+/* main */
+#sfondo-1 {
+    position: relative;
+    background-color: red;
 }
 
 .shoes-1 {
@@ -88,3 +92,4 @@ ul li a {
 .verde {
     color: green;
 }
+/* / main */
